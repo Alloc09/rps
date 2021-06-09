@@ -72,7 +72,7 @@ impl Eq for RpsMoves {}
 
 fn main() {
 
-    println!("Geben Sie entweder r/p/s ein oder q um die Applikation zu beenden.");
+    println!("Type r/p/s to select a move or q to exit the application.");
 
     let player_move = get_player_value().unwrap();
     let computer_move = get_computer_value();
